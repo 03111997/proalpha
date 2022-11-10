@@ -4,7 +4,7 @@
 	
 	$Title = "Site";
 	$CSS = "style.css";
-	include( "vue/HTMLHead.php" );
+	include_once( "vue/HTMLHead.php" );
 	$BDD=[];
 	$BDD['host']="localhost";
 	$BDD['user']="root";
